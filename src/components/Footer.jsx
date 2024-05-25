@@ -28,7 +28,7 @@ function Footer(){
     <p className="text-white pb-2 text-bold">About</p>
     <p className="text-white pb-2 text-bold">Culture</p>
     <p className="text-white pb-2 text-bold">Testimonial</p>
-    <p className="text-white pb-2 text-bold">Work</p>
+    <p className="text-white pb-2 text-bold">Working</p>
     <p className="text-white pb-2 text-bold">Processes</p>
     <p className="text-white pb-2 text-bold">Blog</p>
 </div>
