@@ -8,7 +8,7 @@ function BlogSection(){
         <div className="flex grid grid-cols-4">
        <div className="bg-red-400 w-full h-[250px]">
 <div className="float-right"> 
-<Image className="float-bottom" src="/po5.jpeg" width={80} height={80} />
+<Image className="float-bottom" src="/po5.jpeg" alt="Image" width={80} height={80} />
 </div>
        </div>
        <div>01</div>
