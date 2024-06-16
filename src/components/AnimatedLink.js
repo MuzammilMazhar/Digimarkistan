@@ -64,7 +64,7 @@ const AnimatedWord = ({title}) =>{
         animate="hover"
          className="whitespace-nowrap relative" >
     {title.split("").map((character, i) => 
-    character === "" ? (<span key={i}>&nbsp;</span>) :
+    character === "" ? (<span >&nbsp;</span>) :
     <motion.span 
     variants={animation}
     className="relative inline-block whitespace-nowrap">
