@@ -1,5 +1,5 @@
 
-// import Button from "@/components/Button";
+// import Linka from "@/components/Linka";
 import Menu from "@/components/Menu";
 import ServiceNav from "@/components/ServiceNav";
 import ServiceSection from "@/components/ServiceSection";
@@ -9,10 +9,12 @@ import Link from "next/link";
 
 
 
+
 export default function Home() {
   return (
     <main className="mt-5">
-      <div className=" ">
+
+      {/* <div className=" ">
         <h1 className="float-center justify-center text-black text-center text-[11vw] font-bold mt-0 pt-0 ">DIGIMARKISTAN</h1>
       </div>
       <div className="flex grid grid-cols-1 md:grid-cols-2">
@@ -27,7 +29,7 @@ export default function Home() {
 <div className="p-5">
   <Image className="w-full h-full" src="/po5.jpeg" width={100} height={100}/>
 </div>
-      </div>
+      </div> */}
      <div className="flex grid md:grid-cols-2 p-10">
     <div>
     <div className="flex items-center space-x-4 ">
@@ -43,6 +45,7 @@ export default function Home() {
         </div>
 </div>
      </div>
+     {/* <Linka/> */}
      {/* <div className="group bg-red-500 w-[500px] overflow-hidden h-[500px] rounded-[25px] "> 
       <div className="float-right bg-orange-400 p-5 rounded-[25px] rounded-tl-[1px] gap-4 lg:-translate-y-16 group-hover:translate-y-0 hover:translate-y-0 duration-300">
 <Link className="p-2 border-2 border-gray-400 bg-white rounded-full" href="">Website</Link>
@@ -115,10 +118,13 @@ export default function Home() {
 </div>
 </div>
      </div> 
+  
      <ServiceNav/>
   <ServiceSection/>
   <Menu/>
   {/* <Button/> */}
+ 
     </main>
+  
   );
 }
