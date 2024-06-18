@@ -29,7 +29,7 @@ function Blog(){
   <div className="flex">
     <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
     <div className="rounded-lg pt-3 pr-3 ">
-    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" rel="" width={200} height={200}/>
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
   </div>
     </div>
   <div className="relative">
@@ -61,7 +61,7 @@ function Blog(){
   <div className="flex">
     <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
     <div className="rounded-lg pt-3 pr-3 ">
-    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" rel="" width={200} height={200}/>
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
   </div>
     </div>
   <div className="relative">
@@ -92,7 +92,7 @@ function Blog(){
   <div className="flex">
     <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
     <div className="rounded-lg pt-3 pr-3 ">
-    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" rel="" width={200} height={200}/>
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
   </div>
     </div>
   <div className="relative">
