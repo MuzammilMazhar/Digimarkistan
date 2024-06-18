@@ -63,10 +63,10 @@ function Trending(){
 <div className="grid col-span-4">
     <div className="p-5">
         <h1 className="lg:text-[3vw] md:text-[4vw] sm:text-[5vw] text-[7vw] font-bold md:leading-[4vw] sm:leading-[5vw] leading-[7vw]">Web Design Trends 2024: Shaping the Future of Digital Experiences</h1>
-        <p className="pb-5 pt-2">The landscape of web design continues to evolve rapidly, influenced by technological advancements, user preferences, and emerging design philosophies. As we step into 2024, several key trends are set to define how websites are crafted, enhancing both aesthetics and functionality. Let's explore the prominent web design trends for this year.
+        <p className="pb-5 pt-2">The landscape of web design continues to evolve rapidly, influenced by technological advancements, user preferences, and emerging design philosophies. As we step into 2024, several key trends are set to define how websites are crafted, enhancing both aesthetics and functionality. Let&apos;s explore the prominent web design trends for this year.
         </p>
         <h1 id="Dark Mode Dominance" className="text-gray-500 lg:text-[3vw] md:text-[4vw] sm:text-[5vw] text-[7vw] font-bold md:leading-[4vw] sm:leading-[5vw] leading-[7vw]">1.Dark Mode Dominance</h1>
-        <p className="pt-2 pb-5">Dark mode isn't just a fleeting trend; it's becoming a standard in web design. Offering a sleek, modern look, dark mode reduces eye strain and conserves battery life on mobile devices. Many websites are now offering dark mode as a toggle option, allowing users to switch between light and dark themes based on their preferences or the time of day.
+        <p className="pt-2 pb-5">Dark mode isn&apos;t just a fleeting trend; it&apos;s becoming a standard in web design. Offering a sleek, modern look, dark mode reduces eye strain and conserves battery life on mobile devices. Many websites are now offering dark mode as a toggle option, allowing users to switch between light and dark themes based on their preferences or the time of day. 
         </p>
         <h2  id="AI-Powered Personalization" className="text-gray-500 pt-2 pb-2 lg:text-[3vw] md:text-[4vw] sm:text-[5vw] text-[7vw] font-bold md:leading-[4vw] sm:leading-[5vw] leading-[7vw]">2.AI-Powered Personalization</h2>
         <p className="pt-2 pb-5">Artificial intelligence is revolutionizing web design by enabling highly personalized user experiences. AI algorithms analyze user behavior to deliver tailored content, product recommendations, and adaptive interfaces. This level of personalization not only enhances user engagement but also increases conversion rates as websites become more relevant to individual users.
@@ -94,7 +94,7 @@ function Trending(){
  <p className="sm:text-[12px] text-gray-500 text-[16px]">Web Designer</p></div>
     </div>
     <div className="p-5 sm:pl-0">
-        <p className="md:text-[1.5vw] sm:text-[2vw] text-[4vw] text-gray-500">Hey! I'm Muzammil Mazhar. Web Designer at <br/>DigiMarkistan.</p>
+        <p className="md:text-[1.5vw] sm:text-[2vw] text-[4vw] text-gray-500">Hey! I&apos;m Muzammil Mazhar. Web Designer at <br/>DigiMarkistan.</p>
     </div>
     </div>
 </div>
