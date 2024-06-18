@@ -94,7 +94,7 @@ function Trending(){
  <p className="sm:text-[12px] text-gray-500 text-[16px]">Web Designer</p></div>
     </div>
     <div className="p-5 sm:pl-0">
-        <p className="md:text-[1.5vw] sm:text-[2vw] text-[4vw] text-gray-500">Hey! I&apos;m Muzammil Mazhar. Web Designer at <br/>DigiMarkistan.</p>
+        <p className="md:text-[1.5vw] sm:text-[2vw] text-[4vw] text-gray-500">Hey! Im Muzammil Mazhar. Web Designer at <br/>DigiMarkistan.</p>
     </div>
     </div>
 </div>

@@ -22,14 +22,14 @@ function Blog(){
           <div className="flex grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:p-10 p-5 gap-6">
 <Link href="./WebDesign">
 <div>
-  <div className="group bg-[url(/office.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-[25px] relative">
+  <div className="group bg-[url(/office.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-r-[25px] lg:rounded-bl-[25px] rounded-tl-[25px] relative">
 <div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
 <div className="bg--500 w-[70%] h-full">
   <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
   <div className="flex">
     <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
     <div className="rounded-lg pt-3 pr-3 ">
-    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] sm:rounded-[20px] rounded-[10px]" src="/profile.jpg" alt="Image" width={200} height={200}/>
   </div>
     </div>
   <div className="relative">
@@ -52,16 +52,16 @@ function Blog(){
 
 
 
-<Link href="./WebDesign">
+<Link href="./Maximizing-ROI">
 <div>
-  <div className="group bg-[url(/office.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-[25px] relative">
+  <div className="group bg-[url(/ROI.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-r-[25px] lg:rounded-bl-[25px] rounded-tl-[25px] relative">
 <div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
 <div className="bg--500 w-[70%] h-full">
   <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
   <div className="flex">
     <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
     <div className="rounded-lg pt-3 pr-3 ">
-    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] sm:rounded-[20px] rounded-[10px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
   </div>
     </div>
   <div className="relative">
@@ -73,9 +73,9 @@ function Blog(){
   </div>
   <div className="flex items-center space-x-4 pt-5">
   <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
+  <p>10 min read</p>
 </div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Best Web Designer in Pakistan</p>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline"> Maximizing ROI</p>
 </div>
 </Link>
 
@@ -85,14 +85,14 @@ function Blog(){
 
 <Link href="./Trending-web-design">
 <div>
-  <div className="group bg-[url(/trend.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-[25px] relative">
+  <div className="group bg-[url(/trend.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-r-[25px] lg:rounded-bl-[25px] rounded-tl-[25px] relative">
 <div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
 <div className="bg--500 w-[70%] h-full">
   <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
   <div className="flex">
     <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
     <div className="rounded-lg pt-3 pr-3 ">
-    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] sm:rounded-[20px] rounded-[10px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
   </div>
     </div>
   <div className="relative">
@@ -110,6 +110,95 @@ function Blog(){
 </div>
 </Link>
 
+
+
+
+<Link href="./Social-media-strategy">
+<div>
+  <div className="group bg-[url(/strategy.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-r-[25px] lg:rounded-bl-[25px] rounded-tl-[25px] relative">
+<div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
+<div className="bg--500 w-[70%] h-full">
+  <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
+  <div className="flex">
+    <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
+    <div className="rounded-lg pt-3 pr-3 ">
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] sm:rounded-[20px] rounded-[10px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
+  </div>
+    </div>
+  <div className="relative">
+    <div className="bg--500 w-[4vw] absolute -bottom-[8px] left-0 h-[4vw] border-l-8 border-b-8 border-white rounded-bl-[25px] -ml-[8px] -pb-[38px]"></div>
+  </div>
+  </div>
+</div>
+</div>
+  </div>
+  <div className="flex items-center space-x-4 pt-5">
+  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
+  <p>10 min read</p>
+</div>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Winning Social Media Strategy</p>
+</div>
+</Link>
+
+
+
+
+<Link href="./Trending-web-design">
+<div>
+  <div className="group bg-[url(/trend.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-r-[25px] lg:rounded-bl-[25px] rounded-tl-[25px] relative">
+<div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
+<div className="bg--500 w-[70%] h-full">
+  <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
+  <div className="flex">
+    <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
+    <div className="rounded-lg pt-3 pr-3 ">
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] sm:rounded-[20px] rounded-[10px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
+  </div>
+    </div>
+  <div className="relative">
+    <div className="bg--500 w-[4vw] absolute -bottom-[8px] left-0 h-[4vw] border-l-8 border-b-8 border-white rounded-bl-[25px] -ml-[8px] -pb-[38px]"></div>
+  </div>
+  </div>
+</div>
+</div>
+  </div>
+  <div className="flex items-center space-x-4 pt-5">
+  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
+  <p>7 min read</p>
+</div>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Web Design Trends 2024</p>
+</div>
+</Link>
+
+
+
+
+<Link href="./Social-media-strategy">
+<div>
+  <div className="group bg-[url(/strategy.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-r-[25px] lg:rounded-bl-[25px] rounded-tl-[25px] relative">
+<div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
+<div className="bg--500 w-[70%] h-full">
+  <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
+  <div className="flex">
+    <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
+    <div className="rounded-lg pt-3 pr-3 ">
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] sm:rounded-[20px] rounded-[10px] " src="/profile.jpg" alt="Image" width={200} height={200}/>
+  </div>
+    </div>
+  <div className="relative">
+    <div className="bg--500 w-[4vw] absolute -bottom-[8px] left-0 h-[4vw] border-l-8 border-b-8 border-white rounded-bl-[25px] -ml-[8px] -pb-[38px]"></div>
+  </div>
+  </div>
+</div>
+</div>
+  </div>
+  <div className="flex items-center space-x-4 pt-5">
+  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
+  <p>7 min read</p>
+</div>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Marketing Trends to Watch in 2024</p>
+</div>
+</Link>
 
 
 </div>
