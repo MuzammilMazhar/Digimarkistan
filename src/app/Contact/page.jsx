@@ -64,7 +64,7 @@ function Contact(){
         </div>
         <div className="group flex items-center mt-3">
 <button className="group md:px-[2vw] md:py-[6px] px-[2vw] py-[1vw] text-[14px] bg-blue-500  text-white rounded-full" src="">Go to project planner</button>
-<ArrowRightIcon className="text-white xl:w-[2vw] xl:h-[2vw] lg:w-[2.5vw] lg:h-[2.5vw] md:w-[3vw] md:h-[3vw] sm:w-[3.5vw] sm:h-[3.5vw] w-[5vw] h-[5vw] bg-blue-500 rounded-full lg:group-hover:translate-x-3 lg:group-hover:rotate-0 duration-300 -rotate-45 -ml-2 p-1"/>
+<ArrowRightIcon className="text-white xl:w-[2.5vw] xl:h-[2.5vw] lg:w-[2.5vw] lg:h-[2.5vw] md:w-[3vw] md:h-[3vw] sm:w-[3.5vw] sm:h-[3.5vw] w-[5vw] h-[5vw] bg-blue-500 rounded-full lg:group-hover:translate-x-3 lg:group-hover:rotate-0 duration-300 -rotate-45 -ml-1 p-1"/>
         </div>
    <div className="flex grid sm:grid-cols-2  grid-cols-1 mt-10">
     <div>   <p>Hate contact form?</p></div>

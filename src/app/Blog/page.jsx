@@ -1,3 +1,4 @@
+
 import Uptodate from "@/components/Uptodate";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,291 +19,104 @@ function Blog(){
             </p> 
           </div>
           {/* mt-[20vw] -ml-[5vw] group-hover:ml-0 group-hover:mt-[15vw] duration-300 rounded-[25px] */}
-          <div className="flex grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 p-10">
-
-<Link href="">
+          <div className="flex grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:p-10 p-5 gap-6">
+<Link href="./WebDesign">
 <div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
+  <div className="group bg-[url(/office.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-[25px] relative">
+<div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
+<div className="bg--500 w-[70%] h-full">
+  <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
+  <div className="flex">
+    <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
+    <div className="rounded-lg pt-3 pr-3 ">
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" rel="" width={200} height={200}/>
+  </div>
+    </div>
+  <div className="relative">
+    <div className="bg--500 w-[4vw] absolute -bottom-[8px] left-0 h-[4vw] border-l-8 border-b-8 border-white rounded-bl-[25px] -ml-[8px] -pb-[38px]"></div>
+  </div>
+  </div>
 </div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
 </div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
+  </div>
+  <div className="flex items-center space-x-4 pt-5">
   <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
   <p>5 min read</p>
 </div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Best Web Designer in Pakistan</p>
 </div>
 </Link>
 
 
-<Link href="">
+
+
+
+
+<Link href="./WebDesign">
 <div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
+  <div className="group bg-[url(/office.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-[25px] relative">
+<div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
+<div className="bg--500 w-[70%] h-full">
+  <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
+  <div className="flex">
+    <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
+    <div className="rounded-lg pt-3 pr-3 ">
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" rel="" width={200} height={200}/>
+  </div>
+    </div>
+  <div className="relative">
+    <div className="bg--500 w-[4vw] absolute -bottom-[8px] left-0 h-[4vw] border-l-8 border-b-8 border-white rounded-bl-[25px] -ml-[8px] -pb-[38px]"></div>
+  </div>
+  </div>
 </div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
 </div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
+  </div>
+  <div className="flex items-center space-x-4 pt-5">
   <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
   <p>5 min read</p>
 </div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Best Web Designer in Pakistan</p>
 </div>
 </Link>
 
 
-<Link href="">
+
+
+
+<Link href="./Trending-web-design">
 <div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
+  <div className="group bg-[url(/trend.jpg)] overflow-hidden w-full lg:h-[18vw] md:h-[27vw] sm:h-[50vw] h-[50vw] hover:bg-ease-in duration-200 bg-cover bg-center rounded-[25px] relative">
+<div className="absolute xl:group-hover:bottom-0 xl:group-hover:left-0 xl:-bottom-[8vw] xl:-left-[8vw] bottom-0 left-0 w-full duration-300 ">
+<div className="bg--500 w-[70%] h-full">
+  <div className="bg--500 w-[10%] h-[4vw] rounded-bl-[25px] border-b-8 border-l-8 border-white -ml-[8px] -mb-[8px]"></div>
+  <div className="flex">
+    <div  className="group-hover bg-white bottom-0 left-0 rounded-tr-[25px]" >
+    <div className="rounded-lg pt-3 pr-3 ">
+    <Image className="md:w-[7vw] md:h-[7vw] sm:w-[10vw] sm:h-[10vw] lg:w-[6vw] lg:h-[6vw] w-[12vw] h-[12vw] rounded-[20px] " src="/profile.jpg" rel="" width={200} height={200}/>
+  </div>
+    </div>
+  <div className="relative">
+    <div className="bg--500 w-[4vw] absolute -bottom-[8px] left-0 h-[4vw] border-l-8 border-b-8 border-white rounded-bl-[25px] -ml-[8px] -pb-[38px]"></div>
+  </div>
+  </div>
 </div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
 </div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
+  </div>
+  <div className="flex items-center space-x-4 pt-5">
   <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
+  <p>7 min read</p>
 </div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
+<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw] hover:underline">Web Design Trends 2024</p>
 </div>
 </Link>
 
 
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
 
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
 </div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-          </div>
           <Uptodate/>
 
-
-          {/* next div of blogs */}
-          <div className="flex grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 p-10">
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
-
-<Link href="">
-<div>
-<div className=" group flex bg-[url(/back.jpg)] rounded-lg bg-cover bg-center lg:h-[20vw] md:h-[30vw] sm:h-[40vw] h-[60vw] overflow-hidden">
- <div className="bottom-0 xl:mt-[13vw] xl:-ml-[8vw] lg:mt-[5vw] md:mt-[13vw] sm:mt-[19vw] mt-[35vw] md:ml-0 xl:group-hover:mt-[5vw] xl:group-hover:ml-0 duration-300">
- <div className=" w-[7vw] h-[7vw] border-l-8 border-b-4 -ml-2 -mb-1  xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] border-tr-[20px] mt-2 border-l-  border-white duration-200 "></div>
-<div className="bg-white rounded-tr-[1vw] lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[16vw] w-[18vw] h-[18vw]">
-<Image className="p-2 lg:w-[8vw] lg:h-[8vw] md:w-[10vw] md:h-[10vw] sm:w-[14vw] sm:h-[14vw] w-[18vw] h-[18vw] rounded-[20px] float-b-left relative bottom-0 " src="/po5.jpeg" width={100} height={100} />
-</div>
- </div>
- <div>
- <div className="w-[5vw] h-[6vw] -ml-1 xl:mt-[14.5vw] lg:mt-[15vw] md:mt-[25vw] sm:mt-[35vw] mt-[56vw] border-b-8 xl:group-hover:rounded-bl-[20px] rounded-bl-[20px] duration-200 border-  border-white float-left"></div>
- </div>
-</div>
-{/* description */}
-<div className="flex items-center space-x-4 pt-5">
-  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
-  <p>5 min read</p>
-</div>
-<p className="font-semibold pt-2 xl:text-[2vw] lg:text-[2vw] md:text-[3vw] sm:text-[4vw] text-[5vw] md:leading-[3vw] leading-[6vw]">Best Brand Designer in Pakistan</p>
-</div>
-</Link>
-
           </div>
-        </div>
+   
     )
 }
 
