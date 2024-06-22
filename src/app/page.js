@@ -1,8 +1,11 @@
 
 // import Linka from "@/components/Linka";
 import Menu from "@/components/Menu";
+import Profile from "@/components/Profile";
+import Scroll from "@/components/Scroll";
 import ServiceNav from "@/components/ServiceNav";
 import ServiceSection from "@/components/ServiceSection";
+import Textscroll from "@/components/Textscroll";
 import { ArrowDownRightIcon, ArrowRightIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import Link from "next/link";
@@ -118,7 +121,9 @@ export default function Home() {
 </div>
 </div>
      </div> 
-  
+     <Profile/>
+     <Textscroll/>
+<Scroll/>
      <ServiceNav/>
   <ServiceSection/>
   <Menu/>

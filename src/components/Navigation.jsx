@@ -56,7 +56,11 @@ function Navigation() {
                     Work
                   </Link>
                 </li>
-               
+                <li className="pb-6 text-xl  py-2 px-6 text-center  border-b-2 md:border-b-0    border-gray-900   md:hover:bg-transparent">
+                  <Link href="./About" onClick={() => setNavigation(!navigation)}>
+                    About
+                  </Link>
+                </li>
                 <li className="pb-6 text-xl  py-2 px-6 text-center  border-b-2 md:border-b-0   border-gray-900   md:hover:bg-transparent">
                   <Link href="./Blog" onClick={() => setNavigation(!navigation)}>
                   Blog

@@ -12,15 +12,17 @@
     "@emailjs/browser": "^4.3.3",
     "@heroicons/react": "^2.1.3",
     "@next/font": "^14.2.4",
+    "@studio-freight/lenis": "^1.0.42",
     "emailjs": "^4.0.3",
     "framer-motion": "^11.2.10",
+    "gsap": "^3.12.5",
     "next": "14.2.3",
     "next-themes": "^0.3.0",
     "react": "^18",
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
-    "sass": "^1.77.5",
+    "sass": "^1.77.6",
     "video-react": "^0.16.0"
   },
   "devDependencies": {
