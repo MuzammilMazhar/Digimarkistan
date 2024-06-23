@@ -1,7 +1,6 @@
 
 // import Linka from "@/components/Linka";
 import Menu from "@/components/Menu";
-import Profile from "@/components/Profile";
 import Scroll from "@/components/Scroll";
 import ServiceNav from "@/components/ServiceNav";
 import ServiceSection from "@/components/ServiceSection";
@@ -121,7 +120,6 @@ export default function Home() {
 </div>
 </div>
      </div> 
-     <Profile/>
      <Textscroll/>
 <Scroll/>
      <ServiceNav/>

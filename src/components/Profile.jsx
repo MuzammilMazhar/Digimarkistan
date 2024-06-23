@@ -8,7 +8,7 @@ function Profile(){
         <div>
             <div className="flex grid grid-cols-4 p-10 gap-8">
 <Link className="pt-20" href="/Hassan-Ali">
-<div className="w-full h-[50vh] bg-[url(/profile.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
+<div className="w-full h-[35vw] bg-[url(/profile.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
 
 <div  className="absolute top-0 right-0 m-4">
 <FaLinkedinIn className="w-[3vw] h-[3vw] bg-blue-500 rounded-full p-3 text-white"/>
@@ -30,8 +30,8 @@ function Profile(){
 
 
 
-<Link href="">
-<div className="w-full h-[50vh] bg-[url(/profile.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
+<Link href="/Mohsin-Ali">
+<div className="w-full h-[50vh] bg-[url(/Mohsin.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
 
 <div  className="absolute top-0 right-0 m-4">
 <FaLinkedinIn className="w-[3vw] h-[3vw] bg-blue-500 rounded-full p-3 text-white"/>
@@ -53,8 +53,8 @@ function Profile(){
 
 
 
-<Link className="pt-20" href="">
-<div className="w-full h-[50vh] bg-[url(/profile.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
+<Link className="pt-20" href="/Zain-Ali">
+<div className="w-full h-[50vh] bg-[url(/Zain.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
 
 <div  className="absolute top-0 right-0 m-4">
 <FaLinkedinIn className="w-[3vw] h-[3vw] bg-blue-500 rounded-full p-3 text-white"/>
@@ -76,8 +76,8 @@ function Profile(){
 
 
 
-<Link href="">
-<div className="w-full h-[50vh] bg-[url(/profile.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
+<Link href="/Muzammil-Mazhar">
+<div className="w-full h-[50vh] bg-[url(/Muzammil1.jpg)] bg-cover bg-center  relative rounded-r-[25px] rounded-tl-[25px]">
 
 <div  className="absolute top-0 right-0 m-4">
 <FaLinkedinIn className="w-[3vw] h-[3vw] bg-blue-500 rounded-full p-3 text-white"/>

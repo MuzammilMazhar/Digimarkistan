@@ -1,4 +1,5 @@
 
+import { ArrowRightIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 import React from "react";
 
@@ -6,113 +7,151 @@ import React from "react";
 function Services(){
     return(
        <section p-10>
-
-<div className="m-10  pb-10 border-b-2 border-gray-80">
-            <p className="text-[18vw] font-semibold">Design</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-col-2 lg:grid-cols-2">
 <div>
-    <div className="px-5 ">
-    <h1 className="text-[3vw] md:text-[3.5vw] lg:text-[3vw] tracking-tight  font-semibold">Brand designers and web designers in-house crafting visuals to match your brand values.</h1>
+    <div className="flex grid grid-cols-1 sm:grid-cols-6">
+        <div className="md:p-10 p-3 bg-red-500 lg:col-span-3 md:col-span-4 sm:col-span-5 ">
+        <div>
+<div className="flex items-center space-x-4 md:pt- md:pl-10 pb-0 pt-3 pl-3">
+  <div className="w-[8px] h-[8px] rounded-full bg-black"></div>
+  <p>Services</p>
+</div>
+    <h1 className="lg:text-[4vw] md:text-[4vw] sm:text-[8vw] text-[9vw] md:px-10 px-3 leading-[8vw] md:leading-[4vw] lg:leading-[35px] xl:leading-[45px] font-semibold">Were a digital <br/>
+marketing agency<br/>
+with expertise </h1>
+</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div className="flex grid grid-cols-1 ">
+        <div>
+            <p className="lg:text-[3vw] md:text-[4vw] text-[5vw] md:px-10 p-3 md:pt-0 pt-5 leading-[4.5vw] lg:pl-[50%] md:pl-[20%] lg:leading-[3vw] md:leading-[4vw] font-semibold">We bring our passion for good design to brave brands and deliver something you can shout about.</p>
+        </div>
     </div>
 </div>
-<div className="p-5 items-center">
-    <div className="group p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 ">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">01</span>
-        <Link className="group-hover:translate-x-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold  ">Brand Identity</span></Link>
-    </div>
-    <div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">02</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Web Design</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">03</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">eCommerce</span></Link>
-    </div><div className="p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">04</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Shopify</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">05</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Graphic Design</span></Link>
-    </div>
-</div>
-
-</div>
-</div>
 
 
 
-
-<div className="pb-10 m-10 border-b-2 border-gray-80">
-            <p className="text-[18vw] font-semibold">Develop</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-col-2 lg:grid-cols-2">
+<div className="md:m-10 m-3 pb-10 border-b-2 border-gray-80">
+            <p className="md:text-[18vw] text-[23vw] font-semibold">Design</p>
+            <div className="grid grid-cols-1  lg:grid-cols-2">
 <div>
-    <div className="px-5 ">
-    <h1 className="text-[3vw] md:text-[3.5vw] lg:text-[3vw]  tracking-tight  font-semibold">Web development to the highest standards, and matching the latest industry requirements.</h1>
+    <div className="md:px-5 p-3">
+    <h1 className="text-[6vw] sm:pr-[15%] lg:pr-0 sm:text-[4vw] md:text-[3.5vw] lg:text-[3vw] tracking-tight md:leading-[4vw] leading-[6vw] sm:leading-[4.5vw] font-semibold">Brand designers and web designers in-house crafting visuals to match your brand values.</h1>
     </div>
 </div>
-<div className="p-5 items-center">
-    <div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 ">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">01</span>
-        <Link className="group-hover:translate-x-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-semibold  ">Web Development</span></Link>
+<div className="md:p-5 p-3 items-center space-y-2">
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
     </div>
-    <div className="group p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">02</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Craft CMS</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">03</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Shopify</span></Link>
-    </div><div className="p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">04</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Craft Commerce</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">05</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Business Website</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">05</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Technical SEO</span></Link>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
     </div>
-</div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
 
 </div>
 </div>
+</div>
 
 
 
-
-<div className="pb-10  m-10 border-b-2 border-gray-80">
-            <p className="text-[18vw] font-semibold">Support</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-col-2 lg:grid-cols-2">
+<div className="md:m-10 m-3 pb-10 border-b-2 border-gray-80">
+            <p className="md:text-[18vw] text-[23vw] font-semibold">Design</p>
+            <div className="grid grid-cols-1  lg:grid-cols-2">
 <div>
-    <div className="px-5 ">
-    <h1 className="text-[3vw] md:text-[3.5vw] lg:text-[3vw]  tracking-tight  font-semibold">Lean on our in-house team to support with your design, development and seo needs.</h1>
+    <div className="md:px-5 p-3">
+    <h1 className="text-[6vw] sm:pr-[15%] lg:pr-0 sm:text-[4vw] md:text-[3.5vw] lg:text-[3vw] tracking-tight md:leading-[4vw] leading-[6vw] sm:leading-[4.5vw] font-semibold">Brand designers and web designers in-house crafting visuals to match your brand values.</h1>
     </div>
 </div>
-<div className="p-5 items-center">
-    <div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 ">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">01</span>
-        <Link className="group-hover:translate-x-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-semibold  ">SEO</span></Link>
+<div className="md:p-5 p-3 items-center space-y-2">
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
     </div>
-    <div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">02</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Web Hosting</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-200">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">03</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Shape Support</span></Link>
-    </div><div className="p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">04</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">PPC</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">05</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Content Writing</span></Link>
-    </div><div className=" p-4 hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300">
-    <span className="text-[16px] text-gray-500 text-semibold pt-4 pb-4">05</span>
-        <Link className="hover:translate-y-5 pt-4 pb-4" href=""> <span className="px-5 text-[20px] text-bold ">Craft CMS</span></Link>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
     </div>
-</div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
 
 </div>
 </div>
+</div>
 
 
+
+<div className="md:m-10 m-3 pb-10 border-b-2 border-gray-80">
+            <p className="md:text-[18vw] text-[23vw] font-semibold">Design</p>
+            <div className="grid grid-cols-1  lg:grid-cols-2">
+<div>
+    <div className="md:px-5 p-3">
+    <h1 className="text-[6vw] sm:pr-[15%] lg:pr-0 sm:text-[4vw] md:text-[3.5vw] lg:text-[3vw] tracking-tight md:leading-[4vw] leading-[6vw] sm:leading-[4.5vw] font-semibold">Brand designers and web designers in-house crafting visuals to match your brand values.</h1>
+    </div>
+</div>
+<div className="md:p-5 p-3 items-center space-y-2">
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+    <div className="group hover:border-b-2 hover:border-gray-300 items-center hover:translate-x-5 duration-300 flex justify-between py-2">
+        <p className="lg:text-[2vw] sm:text-[3vw] text-[5vw]" href=""> <span className="pr-5 text-gray-500 ">01</span><span className="">Brand Identity</span></p>
+        <ArrowRightIcon className="lg:w-[3vw] lg:h-[3vw] md:w-[4vw] md:h-[4vw] sm:w-[5vw] sm:h-[5vw] w-[8vw] h-[8vw] bg-blue-500 rounded-full text-white -rotate-45 p-2"/>
+    </div>
+
+</div>
+</div>
+</div>
 
        </section>
     )

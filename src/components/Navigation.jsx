@@ -52,7 +52,7 @@ function Navigation() {
                   </Link>
                 </li>
                 <li className="pb-6 text-xl  py-2 px-6 text-center  border-b-2 md:border-b-0    border-gray-900   md:hover:bg-transparent">
-                  <Link href="./product" onClick={() => setNavigation(!navigation)}>
+                  <Link href="./Our-work" onClick={() => setNavigation(!navigation)}>
                     Work
                   </Link>
                 </li>

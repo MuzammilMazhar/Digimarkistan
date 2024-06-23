@@ -1,5 +1,5 @@
 import React from "react"
-
+import Profile from "@/components/Profile"
 function About(){
     return(
         <div>
@@ -22,6 +22,7 @@ function About(){
     </div>
 </div>
             </div>
+            <Profile/>
         </div>
     )
 }
